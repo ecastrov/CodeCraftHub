@@ -7,5 +7,4 @@ const initServer = () => {
     app.use(bodyParser.json());
     return app;
 };
-
 module.exports = initServer;
